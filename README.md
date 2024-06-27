@@ -22,6 +22,12 @@ Host Code (main.c):
 
 Kernel (filter.cl):
 
+- Loads the input image into shared memory for efficient processing.
+- Applies a 3x3 filter to the input image, using shared memory to optimize memory access.
+- Handles edge cases for pixels at the borders and corners of the image.
+- The filter weights and dimensions are defined within the kernel.
+
+
 
 Compilation:
 
