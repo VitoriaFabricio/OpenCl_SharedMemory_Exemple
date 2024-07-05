@@ -6,7 +6,6 @@ This program demonstrates the use of OpenCL to apply a 3x3 filter to an image us
 *Using shared memory in OpenCL can significantly improve performance by reducing the number of global memory accesses, which are slower compared to shared memory accesses. This is especially beneficial when applying filters to images, as it allows for more efficient data handling within workgroups.*
 
 
-
 The main components include:
 
 
